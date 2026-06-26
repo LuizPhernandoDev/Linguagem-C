@@ -6,14 +6,14 @@
 int main(){
 	
 	// valores inteiros
-	char Char; // %c 
+	char Char;  
 	int Int;
 	
 	// valores de ponto flutuanes(com casas decimais)
 	float Float;
 	double Double;
 	
-	printf("Tipos de variaveis | Especificadores | Tamanho (Byts) |            Intervalo\n");
+	printf("Tipos de variaveis | Especificadores | Tamanho (Bytes) |            Intervalo\n");
 	printf("                   |   de formato    |                |\n");
 	printf("-------------------|-----------------|----------------|--------------------------------\n");
 	printf("       char        |     %%c ou %%s    |        %zu       |           %d a %d  \n", sizeof(char), CHAR_MIN, CHAR_MAX);
