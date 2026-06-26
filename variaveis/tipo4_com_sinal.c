@@ -1,10 +1,5 @@
-// diretiva para ignorar o limite de 8 Bytes para valores de ponto flutuantes pre definida no windows
-#define __USE_MINGW_ANSI_STDIO 1
-
 #include <stdio.h>
 #include <limits.h>
-#include <float.h>
-#include <math.h>
 
 int main(){
 	

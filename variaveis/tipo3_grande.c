@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
-#include <math.h>
 
 int main(){
 	
@@ -21,7 +20,7 @@ int main(){
 	printf("-------------------|-----------------|-----------------|--------------------------------------------\n");
 	printf("     long int      |       %%ld       |        %zu        |          %ld a %ld         \n", sizeof(long int), LONG_MIN, LONG_MAX);
 	printf("   long long int   |       %%lld      |        %zu        | %lld a %lld            \n", sizeof(long long int), LLONG_MIN, LLONG_MAX);
-	printf("    long double    |       %%Lf       |        %zu       |        %Le a %Le            \n", sizeof(long double) , -LDBL_MIN, LDBL_MAX);
+	printf("    long double    |       %%Lf       |        %zu       |      %Le a %Le            \n", sizeof(long double) , -LDBL_MIN, LDBL_MAX);
 	
   return 0;
 }
