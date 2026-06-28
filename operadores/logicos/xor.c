@@ -27,6 +27,16 @@ int main(){
     printf("%c\n", 17 ^ b);    //imprime A
 	printf("%c\n", 17 ^ 80);   //imprime A 
 	
+	//assim ele compara qualquer valor, diferente de 0, como verdadeiro(1) 
+	printf("%d\n", !17 != !80);   //imprime 0
+	printf("%d\n", !17 != !0);    //imprime 1
+	printf("%d\n", !0 != !80);    //imprime 1
+	
+	printf("%d\n", !0 != !0);     //imprime 0
+	printf("%d\n", !0 != !1);     //imprime 1
+	printf("%d\n", !1 != !0);     //imprime 1
+	printf("%d\n", !1 != !1);     //imprime 0
+	
 	printf("%d\n", 0 ^ 0 ^ 0 ^ 0 ^ 1);     //imprime 1 
 	printf("%d\n", 0 ^ 0 ^ 0 ^ 1 ^ 1);     //imprime 0 ==> somente uma das expressões tem que ser verdadeira
 	
