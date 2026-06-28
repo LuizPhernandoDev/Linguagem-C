@@ -11,6 +11,7 @@ int main(){
 	int_fast32_t Int3;
 	int_fast64_t Int4;
     
+    //usa o espaço da memoria que o computador consiga acessar e processar mais rapido o possivel
     printf(" Tipos FAST  |   printf   |   scanf    | Tamanho |                  Intervalo\n");
     printf("  (stdint.h) | (inttypes) | (inttypes) | (Bytes) |\n");
     printf("-------------|------------|------------|---------|--------------------------------------------\n");
