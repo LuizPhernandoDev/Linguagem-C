@@ -10,6 +10,7 @@ char verificarParidade(int numero) {
 
 int main() {
     int Valor = 13;
+    
     printf("O numero %d e: %c\n", Valor, verificarParidade(valor));
     
     return 0;

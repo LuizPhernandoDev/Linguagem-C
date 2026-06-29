@@ -5,7 +5,6 @@ int Soma(int A, int B) {
 }
 
 int main(){
-	
 	int Num1 = 17, Num2 = 34;
 	
 	printf("%d\n", Soma(Num1,Num2));

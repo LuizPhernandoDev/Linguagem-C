@@ -9,6 +9,5 @@ int main(){
 	
 	printf("%c\n", PrimeiraAlfabeto(void));
 	
-	
     return 0;
 }
