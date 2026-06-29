@@ -1,4 +1,10 @@
 /*
+é posivel usar um int e considerar 1 como verdadeiro e 0 com falso,
+mas qualquer outro valor possível do int seria coniderado como verdedeiro
+utilizando os tipos boleanos, limitamos os valores possíveis para 1 ou 0 
+*/
+
+/*
 por mais que esse tipo é nativa da linguagem,
 coloquei ele aqui para ficar mais compreensivo
 */
