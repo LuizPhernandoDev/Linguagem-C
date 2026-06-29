@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int Soma(int A, int B) {
+    return A + B;
+}
+
+int main(){
+	
+	int Num1 = 17, Num2 = 34;
+	
+	printf("%d\n", Soma(Num1,Num2));
+	
+    return 0;
+}
