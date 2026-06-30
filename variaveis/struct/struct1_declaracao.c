@@ -7,6 +7,9 @@ struct TipoPessoa{
 };
 
 int main(){
+	struct TipoPessoa MinhaStuct;
 
-    return 0;
+    printf("Tamanho da union: %lu bytes\n", sizeof(MinhaStuct));
+		
+	return 0;
 }
